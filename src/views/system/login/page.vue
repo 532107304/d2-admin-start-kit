@@ -185,6 +185,7 @@ export default {
         }
     },
     mounted () {
+        console.log(process.env)
         this.timeInterval = setInterval(() => {
             this.refreshTime()
         }, 1000)
