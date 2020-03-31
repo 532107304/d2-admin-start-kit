@@ -26,8 +26,8 @@
                 <!-- 顶栏右侧 -->
                 <div class="d2-header-right" flex-box="0">
                     <!-- 如果你只想在开发环境显示这个按钮请添加 v-if="$env === 'development'" -->
-                    <!-- <d2-header-search @click="handleSearchClick"/>
-                    <d2-header-log/>
+                    <d2-header-search @click="handleSearchClick"/>
+                    <!-- <d2-header-log/>
                     <d2-header-fullscreen/>
                     <d2-header-theme/>
                     <d2-header-size/>
@@ -88,7 +88,7 @@ import d2MenuHeader from './components/menu-header'
 import d2Tabs from './components/tabs'
 // import d2HeaderFullscreen from './components/header-fullscreen'
 // import d2HeaderLocales from './components/header-locales'
-// import d2HeaderSearch from './components/header-search'
+import d2HeaderSearch from './components/header-search'
 // import d2HeaderSize from './components/header-size'
 // import d2HeaderTheme from './components/header-theme'
 import d2HeaderUser from './components/header-user'
@@ -107,7 +107,7 @@ export default {
         d2Tabs,
         // d2HeaderFullscreen,
         // d2HeaderLocales,
-        // d2HeaderSearch,
+        d2HeaderSearch,
         // d2HeaderSize,
         // d2HeaderTheme,
         d2HeaderUser
